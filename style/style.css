@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* header style start */
@@ -28,7 +29,7 @@ header{
     font-weight: 800;
     font-size: 15px;
     margin: 0 250px 150px 0;
-    padding: 10px;
+    padding: 15px 30px;
     border-radius: 5px;
     background: #ff5b29;
     color: #ffffff;
@@ -37,6 +38,7 @@ header{
 
 /* header style end */
 
+/* section one style start */
 
 .con-one{
     align-items: center;
@@ -49,14 +51,69 @@ header{
     align-content: center;
 }
 
+/* section one style end */
+
+/* section tow style start */
+
 .con-tow{
     text-align: center;
     margin: 35px;
 }
 
+.con-tow-title{
+    font-weight: 700;
+    font-size: 45px;
+    padding: 20px;
+}
+
 .con-tow-main{
     display: flex;
-    gap: 35px;
+    gap: 70px;
+    padding: 45px 400px;
+}
+
+.con-tow-main-h2{
+    font-weight: 800;
+    font-size: 30px;
+    padding: 20px 0;
+}
+
+.con-tow-main-h3{
+    font-weight: 700;
+    font-size: 20px;
+    color: #888888;
+}
+
+/* section tow style end */
+
+/* section three style start */
+
+.con-three{
+    background: url(../images/gradient2.png);
+    margin: 100px 370px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+
+.con-three-con{
+    padding: 80px;
+}
+
+.con-three-txt{
+    font-weight: 900;
+    font-size: 45px;
+}
+
+.con-three-btn{
+    font-weight: 600;
+    font-size: 23px;
+    background: #ffffff;
+    color: #ff5b29;
+    border: none;
+    border-radius: 5px;
+    margin: 15px 0;
+    padding: 15px 30px;
 }
 
 
@@ -64,12 +121,9 @@ header{
 
 
 
+/* section three style end */
 
-
-
-
-
-
+/* footer style start */
 
 footer{
     display: flex;
@@ -77,7 +131,7 @@ footer{
     padding: 80px 250px;
     background: #000000;
     color: #ffffff;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 
 .footer-left{
@@ -113,3 +167,5 @@ footer{
     color: #ff5b29;
     background: #ffffff;
 }
+
+/* footer style end */
