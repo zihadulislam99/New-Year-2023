@@ -49,9 +49,14 @@ header{
     align-content: center;
 }
 
+.con-tow{
+    text-align: center;
+    margin: 35px;
+}
+
 .con-tow-main{
     display: flex;
-    text-align: center;
+    gap: 35px;
 }
 
 
