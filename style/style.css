@@ -88,7 +88,7 @@ header{
 .con-tow-main{
     display: flex;
     gap: 70px;
-    padding: 45px 400px;
+    padding: 45px 25%;
 }
 
 .con-tow-main-h2{
@@ -120,7 +120,7 @@ header{
 .con-bonass-main{
     display: flex;
     gap: 100px;
-    padding: 45px 28%;
+    padding: 45px 25%;
 }
 
 .con-bonass-main-img{
@@ -133,6 +133,11 @@ header{
     font-weight: 700;
     font-size: 20px;
     color: #888888;
+}
+
+.con-bonass-about{
+    padding: 0 400px;
+    margin-bottom: 150px;
 }
 /* section bonass style end */
 
