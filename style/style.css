@@ -4,8 +4,8 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* header style start */
 
+/* header style start */
 header{
     background: url(../images/banner/banner1.png);
     background-repeat: no-repeat;
@@ -35,11 +35,10 @@ header{
     color: #ffffff;
     border: none;
 }
-
 /* header style end */
 
-/* section one style start */
 
+/* section one style start */
 .con-one{
     align-items: center;
     display: flex;
@@ -50,11 +49,10 @@ header{
 .con-one-img{
     align-content: center;
 }
-
 /* section one style end */
 
-/* section tow style start */
 
+/* section tow style start */
 .con-tow{
     text-align: center;
     margin: 35px;
@@ -83,16 +81,16 @@ header{
     font-size: 20px;
     color: #888888;
 }
-
 /* section tow style end */
 
-/* section three style start */
 
+/* section three style start */
 .con-three{
-    background: url(../images/gradient2.png);
-    margin: 100px 370px;
+    background: url(../images/gradient2.png), url(../images/watch.png);
+    margin: 100px 300px;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 10px;
     color: #ffffff;
 }
 
@@ -115,16 +113,10 @@ header{
     margin: 15px 0;
     padding: 15px 30px;
 }
-
-
-
-
-
-
 /* section three style end */
 
-/* footer style start */
 
+/* footer style start */
 footer{
     display: flex;
     gap: 350px;
@@ -167,5 +159,4 @@ footer{
     color: #ff5b29;
     background: #ffffff;
 }
-
 /* footer style end */
