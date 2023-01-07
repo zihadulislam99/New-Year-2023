@@ -66,12 +66,9 @@ header{
     color: #616161;
 }
 
-ul{
-    /* list-style: noun; */
-}
-
-li{
-    padding: 7px 0 7px 20px;
+.tickmark{
+    width: 20px;
+    height: 20px;
 }
 /* section one style end */
 
